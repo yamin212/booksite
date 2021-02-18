@@ -7,10 +7,10 @@ section{
     overflow-x:hidden ;
 }
 :root{
-    --single-font:"sniglet",cursive;
-    --Rubik:"Rubik",cursive;
-    --Patua:"Patua one",cursive;
-    --Lobster:"Lobster",cursive;
+    --single-font:"sniglet",Poppins;
+    --Rubik:"Rubik",Poppins;
+    --Patua:"Patua one",Poppins;
+    --Lobster:"Lobster",Poppins;
     --light-black:#2e2c2caf;
     --bggradient:linear-gradient(to bottom: color );
 
@@ -18,14 +18,14 @@ section{
     --light-gray: rgba(255,255,255,0)
     
 }
-.header{
-    font-family: var(--sibgle-font);
+header{
+    font-family: var(--single-font);
     font-size: 0.9em;
-    color: whitesmoke;
+    color: rgb(148, 122, 122);
 }
 header{
-    background-color: #dd2476;
-    background: var(--bggradient);
+    background-color: #dacbd2;
+  ;
 }
 .dropdown-content{
     display: none;
@@ -34,4 +34,9 @@ header{
     min-width: 160px;
     box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.2);
     z-index: 1;
+}
+.col-md-7{ margin-top: 250px;
+    
+    padding: 50px;
+    font-size: 25px;
 }
