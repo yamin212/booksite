@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&display=swap');
+*{
+    box-sizing: border-box;
+}
+header,
+section{
+    overflow-x:hidden ;
+}
+:root{
+    --single-font:"sniglet",cursive;
+    --Rubik:"Rubik"cursive;
+    
+    
+}
